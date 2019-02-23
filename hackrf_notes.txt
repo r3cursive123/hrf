@@ -1,0 +1,24 @@
+Networking:
+/etc/init.d/NetworkManager start
+Then create Wifi profile with password
+
+
+Package Management:
+Update=emerge --sync
+Search=emerge -s package
+Install=emerge package
+
+pip=emerge --ask dev-python/pip
+
+Dependencies=https://z4ziggy.wordpress.com/2015/05/17/sniffing-gsm-traffic-with-hackrf/
+
+http://edoceo.com/howto/emerge
+https://github.com/gearmover/hackrf-gsm
+https://wiki.gentoo.org/wiki/Pip
+https://github.com/ptrkrysik/gr-gsm
+https://github.com/scateu/kalibrate-hackrf
+
+
+sudo emerge dev-python/PyQt5
+sudo emerge net-wireless/gr-gsm
+sudo emerge dev-python/dbus-python
